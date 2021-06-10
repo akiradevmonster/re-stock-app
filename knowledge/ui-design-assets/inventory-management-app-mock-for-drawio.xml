@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" modified="2025-03-16T12:00:00.000Z" agent="5.0 (Windows)" etag="mockup-inventory-app" version="15.0.0" type="device">
+  <diagram id="inventory-app-mockup" name="在庫管理アプリモックアップ">
+    <mxGraphModel dx="1422" dy="798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        
+        <!-- スマートフォンフレーム -->
+        <mxCell id="smartphone-frame" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=5;fillColor=#f5f5f5;strokeColor=#666666;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="40" width="320" height="640" as="geometry" />
+        </mxCell>
+        
+        <!-- スマートフォンステータスバー -->
+        <mxCell id="status-bar" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8f8f8;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="240" y="40" width="320" height="30" as="geometry" />
+        </mxCell>
+        
+        <!-- アプリヘッダー -->
+        <mxCell id="app-header" value="在庫管理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="70" width="320" height="50" as="geometry" />
+        </mxCell>
+        
+        <!-- カテゴリヘッダー行 -->
+        <mxCell id="category-header-row" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="240" y="130" width="320" height="40" as="geometry" />
+        </mxCell>
+        
+        <!-- カテゴリ：バス・トイレタリー -->
+        <mxCell id="category-bathtoiletry" value="バス・トイレタリー" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="135" width="280" height="30" as="geometry" />
+        </mxCell>
+        
+        <!-- テーブルヘッダー行 -->
+        <mxCell id="table-header-row" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e9e9e9;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="240" y="170" width="320" height="30" as="geometry" />
+        </mxCell>
+        
+        <!-- 商品ヘッダー -->
+        <mxCell id="product-header" value="商品" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="260" y="175" width="80" height="20" as="geometry" />
+        </mxCell>
+        
+        <!-- 未開封ヘッダー -->
+        <mxCell id="unopened-header" value="未開封" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="360" y="175" width="80" height="20" as="geometry" />
+        </mxCell>
+        
+        <!-- 開封済ヘッダー -->
+        <mxCell id="opened-header" value="開封済" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="460" y="175" width="80" height="20" as="geometry" />
+        </mxCell>
+        
+        <!-- 商品1行 -->
+        <mxCell id="product1-row" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#E6E6E6;" vertex="1" parent="1">
+          <mxGeometry x="240" y="200" width="320" height="70" as="geometry" />
+        </mxCell>
+        
+        <!-- 商品1画像プレースホルダー -->
+        <mxCell id="product1-image" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="260" y="210" width="50" height="40" as="geometry" />
+        </mxCell>
+        
+        <!-- 商品1画像プレースホルダーアイコン -->
+        <mxCell id="product1-image-icon" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#666666;shadow=0;dashed=0;shape=mxgraph.ios7.icons.camera;fillColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="277" y="222" width="16" height="16" as="geometry" />
+        </mxCell>
+        
+        <!-- 商品1名 -->
+        <mxCell id="product1-name" value="シャンプー" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="255" y="250" width="60" height="20" as="geometry" />
+        </mxCell>
+        
+        <!-- 商品1未開封在庫1 -->
+        <mxCell id="product1-new-1" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="370" y="220" width="20" height="20" as="geometry" />
+        </mxCell>
+        
+        <!-- 商品1未開封在庫2 -->
+        <mxCell id="product1-new-2" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="400" y="220" width="20" height="20" as="geometry" />
+        </mxCell>
+        
+        <!-- 商品1開封済み在庫1 -->
+        <mxCell id="product1-opened-1" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="470" y="220" width="20" height="20" as="geometry" />
+        </mxCell>
+        
+        <!-- 商品2行 -->
+        <mxCell id="product2-row" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f9f9;strokeColor=#E6E6E6;" vertex="1" parent="1">
+          <mxGeometry x="240" y="270" width="320" height="70" as="geometry" />
+        </mxCell>
+        
+        <!-- 商品2画像プレースホルダー -->
+        <mxCell id="product2-image" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="260" y="280" width="50" height="40" as="geometry" />
+        </mxCell>
+        
+        <!-- 商品2画像プレースホルダーアイコン -->
+        <mxCell id="product2-image-icon" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#666666;shadow=0;dashed=0;shape=mxgraph.ios7.icons.camera;fillColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="277" y="292" width="16" height="16" as="geometry" />
+        </mxCell>
+        
+        <!-- 商品2名 -->
+        <mxCell id="product2-name" value="ボディーソープ" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="255" y="320" width="60" height="20" as="geometry" />
+        </mxCell>
+        
+        <!-- 商品2未開封在庫1 -->
+        <mxCell id="product2-new-1" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="370" y="290" width="20" height="20" as="geometry" />
+        </mxCell>
+        
+        <!-- 商品2未開封在庫2 -->
+        <mxCell id="product2-new-2" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="400" y="290" width="20" height="20" as="geometry" />
+        </mxCell>
+        
+        <!-- 商品2未開封在庫3 -->
+        <mxCell id="product2-new-3" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="430" y="290" width="20" height="20" as="geometry" />
+        </mxCell>
+        
+        <!-- 商品2開封済み在庫1 -->
+        <mxCell id="product2-opened-1" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="470" y="290" width="20" height="20" as="geometry" />
+        </mxCell>
+        
+        <!-- カテゴリヘッダー行 -->
+        <mxCell id="category-header-row2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="240" y="360" width="320" height="40" as="geometry" />
+        </mxCell>
+        
+        <!-- カテゴリ：キッチン用品 -->
+        <mxCell id="category-kitchen" value="キッチン用品" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="365" width="280" height="30" as="geometry" />
+        </mxCell>
+        
+        <!-- テーブルヘッダー行2 -->
+        <mxCell id="table-header-row2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e9e9e9;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="240" y="400" width="320" height="30" as="geometry" />
+        </mxCell>
+        
+        <!-- 商品ヘッダー2 -->
+        <mxCell id="product-header2" value="商品" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="260" y="405" width="80" height="20" as="geometry" />
+        </mxCell>
+        
+        <!-- 未開封ヘッダー2 -->
+        <mxCell id="unopened-header2" value="未開封" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="360" y="405" width="80" height="20" as="geometry" />
+        </mxCell>
+        
+        <!-- 開封済ヘッダー2 -->
+        <mxCell id="opened-header2" value="開封済" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="460" y="405" width="80" height="20" as="geometry" />
+        </mxCell>
+        
+        <!-- 商品3行 -->
+        <mxCell id="product3-row" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#E6E6E6;" vertex="1" parent="1">
+          <mxGeometry x="240" y="430" width="320" height="70" as="geometry" />
+        </mxCell>
+        
+        <!-- 商品3画像プレースホルダー -->
+        <mxCell id="product3-image" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="260" y="440" width="50" height="40" as="geometry" />
+        </mxCell>
+        
+        <!-- 商品3画像プレースホルダーアイコン -->
+        <mxCell id="product3-image-icon" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#666666;shadow=0;dashed=0;shape=mxgraph.ios7.icons.camera;fillColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="277" y="452" width="16" height="16" as="geometry" />
+        </mxCell>
+        
+        <!-- 商品3名 -->
+        <mxCell id="product3-name" value="食器用洗剤" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="255" y="480" width="60" height="20" as="geometry" />
+        </mxCell>
+        
+        <!-- 商品3未開封在庫1 -->
+        <mxCell id="product3-new-1" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="370" y="450" width="20" height="20" as="geometry" />
+        </mxCell>
+        
+        <!-- 商品3開封済み在庫1 -->
+        <mxCell id="product3-opened-1" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="470" y="450" width="20" height="20" as="geometry" />
+        </mxCell>
+        
+        <!-- 商品4行 -->
+        <mxCell id="product4-row" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f9f9;strokeColor=#E6E6E6;" vertex="1" parent="1">
+          <mxGeometry x="240" y="500" width="320" height="70" as="geometry" />
+        </mxCell>
+        
+        <!-- 商品4画像プレースホルダー -->
+        <mxCell id="product4-image" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="260" y="510" width="50" height="40" as="geometry" />
+        </mxCell>
+        
+        <!-- 商品4画像プレースホルダーアイコン -->
+        <mxCell id="product4-image-icon" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#666666;shadow=0;dashed=0;shape=mxgraph.ios7.icons.camera;fillColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="277" y="522" width="16" height="16" as="geometry" />
+        </mxCell>
+        
+        <!-- 商品4名 -->
+        <mxCell id="product4-name" value="キッチンスポンジ" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="255" y="550" width="60" height="20" as="geometry" />
+        </mxCell>
+        
+        <!-- 商品4未開封在庫1 -->
+        <mxCell id="product4-new-1" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="370" y="520" width="20" height="20" as="geometry" />
+        </mxCell>
+        
+        <!-- 商品4未開封在庫2 -->
+        <mxCell id="product4-new-2" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="400" y="520" width="20" height="20" as="geometry" />
+        </mxCell>
+        
+        <!-- 商品4開封済み在庫1 -->
+        <mxCell id="product4-opened-1" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="470" y="520" width="20" height="20" as="geometry" />
+        </mxCell>
+        
+        <!-- ナビゲーションバー -->
+        <mxCell id="navigation-bar" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8f8f8;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="240" y="620" width="320" height="60" as="geometry" />
+        </mxCell>
+        
+        <!-- ホームアイコン -->
+        <mxCell id="home-icon" value="ホーム" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=bottom;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="260" y="650" width="40" height="20" as="geometry" />
+        </mxCell>
+        
+        <!-- ホームアイコン画像 -->
+        <mxCell id="home-icon-image" value="" style="shape=mxgraph.ios7.icons.home;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;fillColor=#666666;strokeColor=#666666;strokeWidth=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="270" y="630" width="20" height="20" as="geometry" />
+        </mxCell>
+        
+        <!-- カテゴリアイコン -->
+        <mxCell id="category-icon" value="カテゴリ" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=bottom;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="360" y="650" width="40" height="20" as="geometry" />
+        </mxCell>
+        
+        <!-- カテゴリアイコン画像 -->
+        <mxCell id="category-icon-image" value="" style="shape=mxgraph.ios7.icons.folders;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;fillColor=#666666;strokeColor=#666666;strokeWidth=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="370" y="630" width="20" height="20" as="geometry" />
+        </mxCell>
+        
+        <!-- 設定アイコン -->
+        <mxCell id="settings-icon" value="設定" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=bottom;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="460" y="650" width="40" height="20" as="geometry" />
+        </mxCell>
+        
+        <!-- 設定アイコン画像 -->
+        <mxCell id="settings-icon-image" value="" style="shape=mxgraph.ios7.icons.settings;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;fillColor=#666666;strokeColor=#666666;strokeWidth=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="470" y="630" width="20" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
