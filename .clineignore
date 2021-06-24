@@ -1,0 +1,58 @@
+# 依存関係（大きすぎるため処理不要）
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# ビルド成果物
+/.next/
+/out/
+/build
+/dist
+/.swc/
+/.turbo/
+
+# テスト関連
+/coverage
+/test-results/
+/playwright-report/
+/playwright/.cache/
+
+# キャッシュ
+.cache/
+.eslintcache
+.stylelintcache
+.parcel-cache
+
+# 大きなデータファイル
+*.log
+*.gz
+*.zip
+*.tar
+*.tgz
+*.rar
+*.7z
+
+# 機密情報
+.env*
+**/apikeys.*
+**/secrets.*
+config/keys.*
+*.pem
+*.key
+
+# システムファイル
+.DS_Store
+Thumbs.db
+
+# エディタ設定
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
