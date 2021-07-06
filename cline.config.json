@@ -1,0 +1,7 @@
+{
+  "apiProvider": "anthropic",
+  "apiKey": "(see Cline Settings UI or Environment file .env)",
+  "model": "claude-3.7-sonnet",
+  "language": "typescript",
+  "framework": "nextjs"
+}
